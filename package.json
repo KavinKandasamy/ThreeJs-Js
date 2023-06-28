@@ -1,0 +1,36 @@
+{
+  "name": "basicshaperenderer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "description": "Basic Shape Renderer",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@dimforge/rapier3d": "^0.9.0",
+    "brush": "^1.0.3",
+    "color": "^4.2.3",
+    "lil-gui": "^0.16.0",
+    "mandelbrot-canvas": "^0.0.2",
+    "perlin": "^1.0.0",
+    "three": "^0.152.2",
+    "three-custom-shader-material": "^3.3.6",
+    "troika-three-text": "^0.46.4",
+    "tween.js": "^16.6.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.152.0",
+    "eslint": "^8.41.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "vite": "^4.3.9",
+    "vite-plugin-glsl": "^1.0.2"
+  }
+}
